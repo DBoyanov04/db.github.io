@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <div class="language-switcher">
+            <button id="lang-bg" class="active">BG</button>
+            <button id="lang-en">EN</button>
+        </div>
+        <a href="index.html"><img src="logo.png" alt="Лого" id="logo"></a>
+        <h1 data-i18n="header_title">DayTech сервиз за компютри</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" data-i18n="nav_home">Начало</a></li>
+            <li><a href="services.html" class="active" data-i18n="nav_services">Услуги</a></li>
+            <li><a href="faq.html" data-i18n="nav_faq">Често задавани въпроси</a></li>
+            <li><a href="about.html" data-i18n="nav_about">За нас</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Контакти</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 data-i18n="services_title">Нашите услуги</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th data-i18n="service_column">Услуга</th>
+                    <th data-i18n="price_column">Цена</th>
+                    <th data-i18n="description_column">Описание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-i18n="service1_title">Диагностика</td>
+                    <td>40 лв.</td>
+                    <td data-i18n="service1_desc">Преглед за развалени части, измерване на чипове и др.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service2_title">Инсталация на ОС</td>
+                    <td>50 лв.</td>
+                    <td data-i18n="service2_desc">Инсталация на Windows/Linux със запазване на данните.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service3_title">Почистване</td>
+                    <td>60 лв.</td>
+                    <td data-i18n="service3_desc">Пълно почистване на лаптопи и настолни компютри.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service4_title">Инсталация на OpenOffice/LibreOffice</td>
+                    <td>40 лв.</td>
+                    <td data-i18n="service4_desc">Инсталация на безплатни офис пакети.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service5_title">Подмяна на RAM памет</td>
+                    <td>80 лв.</td>
+                    <td data-i18n="service5_desc">Подмяна на RAM памет на лаптоп.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service6_title">Трансфер на данни</td>
+                    <td>20 лв.</td>
+                    <td data-i18n="service6_desc">Прехвърляне на данни от/на твърд диск.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service7_title">Подмяна на матрица на лаптоп</td>
+                    <td>150 лв.</td>
+                    <td data-i18n="service7_desc">Замяна на екран на лаптоп.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service8_title">Подмяна на капак на лаптоп</td>
+                    <td>50 лв.</td>
+                    <td data-i18n="service8_desc">Подмяна на преден или заден капак.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service9_title">Инсталация на антивирус</td>
+                    <td>30 лв.</td>
+                    <td data-i18n="service9_desc">Инсталация на антивирусна програма.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service10_title">Ремонт на дънна платка</td>
+                    <td>100 лв.</td>
+                    <td data-i18n="service10_desc">Ремонт на дънна платка на лаптоп.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service11_title">Флашване на BIOS</td>
+                    <td>80 лв.</td>
+                    <td data-i18n="service11_desc">Флашване на BIOS чипа.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service12_title">Преглед на захранване</td>
+                    <td>30 лв.</td>
+                    <td data-i18n="service12_desc">Проверка на захранващото устройство на компютър или лаптоп.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service13_title">Почистване на вентилатор</td>
+                    <td>25 лв.</td>
+                    <td data-i18n="service13_desc">Почистване на вентилатора за охлаждане на лаптоп или настолен компютър.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service14_title">Премахване на вируси</td>
+                    <td>40 лв.</td>
+                    <td data-i18n="service14_desc">Премахване на вируси и зловреден софтуер от компютър.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service15_title">Ремонт на видео карта</td>
+                    <td>120 лв.</td>
+                    <td data-i18n="service15_desc">Ремонт на графична карта на настолен компютър или лаптоп.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service16_title">Зареждане на батерия</td>
+                    <td>15 лв.</td>
+                    <td data-i18n="service16_desc">Зареждане на батерия за лаптоп или мобилен компютър.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service17_title">Подмяна на SSD</td>
+                    <td>100 лв.</td>
+                    <td data-i18n="service17_desc">Подмяна на SSD диск в лаптоп.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service18_title">Оптимизация на системата</td>
+                    <td>50 лв.</td>
+                    <td data-i18n="service18_desc">Оптимизация на операционната система и ускоряване на компютъра.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service19_title">Преглед на мрежова свързаност</td>
+                    <td>30 лв.</td>
+                    <td data-i18n="service19_desc">Проверка на мрежови настройки и свързаност.</td>
+                </tr>
+                <tr>
+                    <td data-i18n="service20_title">Ремонт на лаптопи след падане</td>
+                    <td>150 лв.</td>
+                    <td data-i18n="service20_desc">Ремонт на лаптопи след физическо увреждане или падане.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </main>
+    <footer>
+        <p data-i18n="footer_contacts">Контакти: DayTechservices@gmail.com | тел: 089 123 4567</p>
+    </footer>
+</div>
+</body>
+</html>

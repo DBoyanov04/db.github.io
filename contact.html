@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <div class="language-switcher">
+            <button id="lang-bg" class="active">BG</button>
+            <button id="lang-en">EN</button>
+        </div>
+        <a href="index.html"><img src="logo.png" alt="Лого" id="logo"></a>
+        <h1 data-i18n="header_title">DayTech сервиз за компютри</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" data-i18n="nav_home">Начало</a></li>
+            <li><a href="services.html" data-i18n="nav_services">Услуги</a></li>
+            <li><a href="faq.html" data-i18n="nav_faq">Често задавани въпроси</a></li>
+            <li><a href="about.html" data-i18n="nav_about">За нас</a></li>
+            <li><a href="contact.html" class="active" data-i18n="nav_contact">Контакти</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 data-i18n="contact_title">Свържете се с нас</h2>
+        <p data-i18n="contact_text">Можете да ни пишете или да ни посетите в нашия офис в Варна.</p>
+        
+        <div class="contact-info">
+            <p><strong data-i18n="email_label">Имейл:</strong> DayTechservices@gmail.com</p>
+            <p><strong data-i18n="phone_label">Телефон:</strong> 089 123 4567</p>
+            <p><strong data-i18n="address_label">Адрес:</strong> <span data-i18n="address_text">ул. "Студентска" №4, Варна</span></p>
+            <p><strong data-i18n="hours_label">Работни дни:</strong> <span data-i18n="hours_text">Понеделник-Петък: 10:00-20:00</span></p>
+        </div>
+
+        <section id="order-form">
+    <h2 data-i18n="form_title">Поръчай услуга</h2>
+    <form id="serviceForm">
+        <label for="name"><span data-i18n="form_name">Име</span>:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email"><span data-i18n="form_email">Имейл</span>:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="service"><span data-i18n="form_service">Услуга</span>:</label>
+<select id="service" name="service">
+    <option data-i18n="service1_title">Диагностика</option>
+<option data-i18n="service2_title">Инсталация на ОС</option>
+<option data-i18n="service3_title">Почистване</option>
+<option data-i18n="service4_title">Инсталация на OpenOffice/LibreOffice</option>
+<option data-i18n="service5_title">Подмяна на RAM памет</option>
+<option data-i18n="service6_title">Трансфер на данни</option>
+<option data-i18n="service7_title">Подмяна на матрица на лаптоп</option>
+<option data-i18n="service8_title">Подмяна на капак на лаптоп</option>
+<option data-i18n="service9_title">Инсталация на антивирус</option>
+<option data-i18n="service10_title">Ремонт на дънна платка</option>
+<option data-i18n="service11_title">Флашване на BIOS</option>
+<option data-i18n="service12_title">Преглед на захранване</option>
+<option data-i18n="service13_title">Почистване на вентилатор</option>
+<option data-i18n="service14_title">Премахване на вируси</option>
+<option data-i18n="service15_title">Ремонт на видео карта</option>
+<option data-i18n="service16_title">Зареждане на батерия</option>
+<option data-i18n="service17_title">Подмяна на SSD</option>
+<option data-i18n="service18_title">Оптимизация на системата</option>
+<option data-i18n="service19_title">Преглед на мрежова свързаност</option>
+<option data-i18n="service20_title">Ремонт на лаптопи след падане</option>
+
+</select>
+
+
+        <label for="message"><span data-i18n="form_message">Съобщение</span>:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit" data-i18n="form_submit">Изпрати</button>
+    </form>
+</section>
+    </main>
+    <footer>
+        <p data-i18n="footer_contacts">Контакти: DayTechservices@gmail.com | тел: 089 123 4567</p>
+    </footer>
+</div>
+</body>
+</html>
